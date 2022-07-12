@@ -1,0 +1,49 @@
+*{
+    background-color:rgba(245, 245, 245, 0.883);
+    font-family: "verdana";
+}
+
+.container{
+    display:flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.sub-container{
+    border: 2px solid #f06060;
+    display:flex; 
+   flex-direction: column;
+    float: left;
+    margin: 10px 10px;
+    text-align: center;
+    text-align: center;
+}
+
+.app{
+   width: 100%; 
+   height:auto;
+   background-color: #f06060;
+   position: fixed;
+   top: 0;
+   display: block;
+   text-align: center;
+   padding: 5px;
+}
+.input{
+    text-align: center;
+    padding: 5px;
+    border-radius: 1ch;
+    background-color: white;
+    border: 2px solid red;
+    height: 20px;
+}
+.btn{
+    padding: 5px;
+    border-radius: 1ch;
+    background-color: white;
+    margin-left: 5px;
+    border: 2px solid red;
+    height: 40px;
+}
