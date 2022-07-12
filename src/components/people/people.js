@@ -43,7 +43,7 @@ const People = () => {
                 <div className='sub-container'>
                     <p>Name: {key}</p>
                     <p>Gender: {state[key].res1.gender}</p>
-                    <p>Countries{state[key].res2.country.sort((a, b) => a.probability - b.probability)
+                    <p>Countries{state[key].res2.country.sort((a, b) => a.probability - b.probability).reverse()
                         .map(country =>
                             <p>{country.country_id}:{country.probability}</p>
                         )}</p>
